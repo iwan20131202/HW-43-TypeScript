@@ -1,0 +1,13 @@
+{
+  "name": "ts-tasks",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
